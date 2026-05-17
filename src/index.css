@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.theme-fire   { --tc:#c9a227; --tc2:#ff6b35; --bg1:#1a0808; --bg2:#2d0f0a; }
+.theme-ocean  { --tc:#4db8c8; --tc2:#7ee8f5; --bg1:#051520; --bg2:#0a2535; }
+.theme-forest { --tc:#6db86d; --tc2:#a8d8a8; --bg1:#071510; --bg2:#102010; }
+.theme-night  { --tc:#9b7fd4; --tc2:#c4a8f0; --bg1:#080510; --bg2:#120d1e; }
+.theme-gold   { --tc:#e8c84a; --tc2:#ffd700; --bg1:#120d02; --bg2:#1e1505; }
+.theme-blood  { --tc:#cc3333; --tc2:#ff6666; --bg1:#120404; --bg2:#1e0808; }
+.theme-ice    { --tc:#88ccee; --tc2:#cce8ff; --bg1:#050a12; --bg2:#0a1520; }
+.theme-earth  { --tc:#b8864e; --tc2:#d4a574; --bg1:#100b05; --bg2:#1a1208; }
+
+html, body {
+  background: #0e0705;
+  font-family: 'Crimson Text', serif;
+  min-height: 100vh;
+  color: #f0dfc0;
+}
+#root { min-height: 100vh; }
+img { display: block; }
+button { cursor: pointer; font-family: inherit; }
